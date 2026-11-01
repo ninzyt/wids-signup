@@ -3,6 +3,7 @@
 An event and shift sign-up board for UBC Women in Data Science. Everyone can
 create events, archive/restore them, and sign up by name. There are no admin/exec
 permission levels or authentication in this version.
+<img width="713" height="653" alt="image" src="https://github.com/user-attachments/assets/d57b0067-83d9-4d58-a012-d391db241aff" />
 
 ## Run on this computer
 
@@ -31,7 +32,7 @@ The Supabase variables are currently unused.
 6. On the home page, select **Sign up**, enter a name, choose an open role, and save.
 7. **Archive event** removes it from active dashboards, home, and calendar. The
    **Archived** filter preserves the event and people; **Restore event** brings it back.
-
+<!--
 ## What “local” means
 
 Events, role times, signups and archive state are saved in this browser's
@@ -110,4 +111,4 @@ its browser permissions do not allow event creation. Do not assume that simply
 setting Supabase keys enables the new workflow. A later integration should add
 migrations for these fields, an atomic event-and-roles creation operation, and the
 chosen access policies, then replace the functions in `data.ts` with shared writes.
-Never expose a Supabase secret/service-role key in browser code.
+Never expose a Supabase secret/service-role key in browser code. -->
